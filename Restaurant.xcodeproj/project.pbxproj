@@ -7,19 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A4AF7B12ABB7000001A7ECC /* PhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4AF7B02ABB7000001A7ECC /* PhotoView.swift */; };
 		8AD6529F2AB8DE320073F48F /* RestaurantApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD6529E2AB8DE320073F48F /* RestaurantApp.swift */; };
-		8AD652A12AB8DE320073F48F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD652A02AB8DE320073F48F /* ContentView.swift */; };
+		8AD652A12AB8DE320073F48F /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD652A02AB8DE320073F48F /* MainView.swift */; };
 		8AD652A32AB8DE330073F48F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AD652A22AB8DE330073F48F /* Assets.xcassets */; };
 		8AD652A72AB8DE330073F48F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AD652A62AB8DE330073F48F /* Preview Assets.xcassets */; };
+		8AD652AE2AB8DFCC0073F48F /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD652AD2AB8DFCB0073F48F /* AboutView.swift */; };
+		8AD652B02AB8DFDC0073F48F /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD652AF2AB8DFDC0073F48F /* GalleryView.swift */; };
+		8AD652B22AB8DFED0073F48F /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD652B12AB8DFED0073F48F /* MenuView.swift */; };
+		8AD652B62AB8E0790073F48F /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD652B32AB8E0790073F48F /* DataService.swift */; };
+		8AD652B72AB8E0790073F48F /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD652B42AB8E0790073F48F /* MenuItem.swift */; };
+		8AD652B82AB8E0790073F48F /* MenuListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD652B52AB8E0790073F48F /* MenuListRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8A4AF7B02ABB7000001A7ECC /* PhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoView.swift; sourceTree = "<group>"; };
 		8AD6529B2AB8DE320073F48F /* Restaurant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Restaurant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AD6529E2AB8DE320073F48F /* RestaurantApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantApp.swift; sourceTree = "<group>"; };
-		8AD652A02AB8DE320073F48F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8AD652A02AB8DE320073F48F /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		8AD652A22AB8DE330073F48F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8AD652A42AB8DE330073F48F /* Restaurant.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Restaurant.entitlements; sourceTree = "<group>"; };
 		8AD652A62AB8DE330073F48F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8AD652AD2AB8DFCB0073F48F /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		8AD652AF2AB8DFDC0073F48F /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
+		8AD652B12AB8DFED0073F48F /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		8AD652B32AB8E0790073F48F /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		8AD652B42AB8E0790073F48F /* MenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		8AD652B52AB8E0790073F48F /* MenuListRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuListRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,10 +67,17 @@
 			isa = PBXGroup;
 			children = (
 				8AD6529E2AB8DE320073F48F /* RestaurantApp.swift */,
-				8AD652A02AB8DE320073F48F /* ContentView.swift */,
+				8AD652A02AB8DE320073F48F /* MainView.swift */,
 				8AD652A22AB8DE330073F48F /* Assets.xcassets */,
 				8AD652A42AB8DE330073F48F /* Restaurant.entitlements */,
 				8AD652A52AB8DE330073F48F /* Preview Content */,
+				8AD652AD2AB8DFCB0073F48F /* AboutView.swift */,
+				8AD652AF2AB8DFDC0073F48F /* GalleryView.swift */,
+				8A4AF7B02ABB7000001A7ECC /* PhotoView.swift */,
+				8AD652B12AB8DFED0073F48F /* MenuView.swift */,
+				8AD652B32AB8E0790073F48F /* DataService.swift */,
+				8AD652B42AB8E0790073F48F /* MenuItem.swift */,
+				8AD652B52AB8E0790073F48F /* MenuListRow.swift */,
 			);
 			path = Restaurant;
 			sourceTree = "<group>";
@@ -139,8 +160,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8AD652A12AB8DE320073F48F /* ContentView.swift in Sources */,
+				8AD652B72AB8E0790073F48F /* MenuItem.swift in Sources */,
+				8AD652B22AB8DFED0073F48F /* MenuView.swift in Sources */,
+				8AD652A12AB8DE320073F48F /* MainView.swift in Sources */,
+				8A4AF7B12ABB7000001A7ECC /* PhotoView.swift in Sources */,
+				8AD652AE2AB8DFCC0073F48F /* AboutView.swift in Sources */,
+				8AD652B62AB8E0790073F48F /* DataService.swift in Sources */,
+				8AD652B82AB8E0790073F48F /* MenuListRow.swift in Sources */,
 				8AD6529F2AB8DE320073F48F /* RestaurantApp.swift in Sources */,
+				8AD652B02AB8DFDC0073F48F /* GalleryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +293,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Restaurant/Preview Content\"";
+				DEVELOPMENT_TEAM = 5V954C2Z5B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -277,7 +306,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
@@ -301,6 +330,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Restaurant/Preview Content\"";
+				DEVELOPMENT_TEAM = 5V954C2Z5B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -313,7 +343,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
